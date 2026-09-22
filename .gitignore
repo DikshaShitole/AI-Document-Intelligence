@@ -4,3 +4,13 @@ __pycache__/
 .env
 data/documents/
 data/extracted/
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated data
+data/chroma_db/
+data/extracted/

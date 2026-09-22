@@ -13,7 +13,7 @@ def split_text(text):
 
 
 if __name__ == "__main__":
-    text_file_path = "data/extracted/india_epi_factsheet.txt"
+    text_file_path = "data/extracted/2024_Annual_Report.txt"
 
     with open(text_file_path, "r", encoding="utf-8") as file:
         text = file.read()

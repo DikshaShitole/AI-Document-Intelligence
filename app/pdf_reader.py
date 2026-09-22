@@ -23,8 +23,8 @@ def extract_text_from_pdf(pdf_path):
         })
     return pages
 
-pdf_path = "data/documents/india_epi_factsheet.pdf"
-output_path = "data/extracted/india_epi_factsheet.txt"
+pdf_path = "data/documents/2024_Annual_Report.pdf"
+output_path = "data/extracted/2024_Annual_Report.txt"
 pages = extract_text_from_pdf(pdf_path)
 with open(output_path, "w", encoding="utf-8") as file:
     for page in pages:

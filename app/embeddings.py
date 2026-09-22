@@ -15,7 +15,7 @@ def generate_embeddings(chunks):
 if __name__ == "__main__":
     from text_splitter import split_text
 
-    text_file_path = "data/extracted/india_epi_factsheet.txt"
+    text_file_path = "data/extracted/2024_Annual_Report.txt"
 
     with open(text_file_path, "r", encoding="utf-8") as file:
         text = file.read()
